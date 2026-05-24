@@ -1,0 +1,26 @@
+# Dependencies for the FastAPI app container only.
+# vllm is intentionally excluded — it runs in a separate GPU process/container.
+
+# Core ML (CPU build — switch base image to nvidia/cuda if embedding throughput matters)
+torch>=2.4.0
+transformers>=4.45.0
+accelerate>=0.34.0
+pillow>=10.0.0
+sentencepiece>=0.2.0
+
+# Vector DB
+qdrant-client>=1.11.0
+
+# LLM client (OpenAI-compatible)
+openai>=1.50.0
+
+# Web app
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Utilities
+pydantic>=2.0
+pydantic-settings>=2.0
+numpy>=1.26
+tqdm>=4.66
