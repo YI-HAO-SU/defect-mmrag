@@ -1,7 +1,6 @@
 # Defect-MMRAG: Industrial Multimodal RAG for Defect Diagnosis
 
-End-to-end multimodal RAG system for industrial defect diagnosis, built to demonstrate
-production-grade GenAI engineering skills for AI/ML Application Engineer roles.
+End-to-end multimodal RAG system for industrial defect diagnosis, built to demonstrate production-grade GenAI engineering skills.
 
 ## Architecture
 
